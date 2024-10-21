@@ -254,21 +254,25 @@ header{
 #Brasil{
     background-image: url(img/destino2.png);
     background-size: cover;
+    box-shadow: 0px 0px 10px rgba(126, 126, 126, 0.61);
 }
 
 #Marrocos{
     background-image: url(img/destino1.png);
     background-size: cover;
+    box-shadow: 0px 0px 10px rgba(126, 126, 126, 0.61);
 }
 
 #Chile{
     background-image: url(img/destino5.png);
     background-size: cover;
+    box-shadow: 0px 0px 10px rgba(126, 126, 126, 0.61);
 }
 
 #Holanda{
     background-image: url(img/destino4.png);
     background-size: cover;
+    box-shadow: 0px 0px 10px rgba(126, 126, 126, 0.61);
 }
 
 
@@ -373,6 +377,7 @@ header{
 
 /* FIM ESTILO CAIXA MAPA */
 
+
 /* ESTILO CAIXA ICONE CAIXA MAPA */
 
 #icones_caixaMapa{
@@ -397,6 +402,97 @@ header{
 
 
 /* FIM ESTILO CAIXA ICONE CAIXA MAPA */
+
+
+/* ESTILO CAIXA GALERIA */
+
+#titulo_caixaGaleria{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+
+#titulo_caixaGaleria h4{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 90px;
+    font-size: 15px;
+}
+
+#titulo_caixaGaleria > h1{
+    color: var(--Texto_escuro); 
+    margin-left: 90px;
+    font-size:30px;
+}
+
+#imagens_caixaGaleria{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 490px;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+
+#foto_01{
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(126, 126, 126, 0.61);
+}
+
+#imagem_foto_01{
+    width: 100%;
+    height: 50%;
+    border-radius: 20px 20px 0px 0px;
+    background-image: url(img/destino4.png);
+    background-size: cover;
+}
+
+#texto_foto_01 p:nth-of-type(1), p:nth-of-type(3){
+    color: var(--Cinza_claro);
+}
+
+#texto_foto_01 p:nth-of-type(2){
+    color: var(--Texto_escuro);
+}
+
+#texto_foto_01 p{
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+#video_caixaGaleria{
+    width: 800px;
+    height: 400px;
+    box-shadow: 0px 0px 15px rgba(126, 126, 126, 0.61);
+    border-radius: 20px;
+    background-image: url(img/video.png);
+    background-size: cover;
+}
+
+#fim_caixaGaleria{
+    width: 90%;
+    height: 90px;
+    margin: auto;
+    background-image: url(img/destino5.png);
+    border-radius: 10px;
+    background-size: cover;
+    color: white;
+}
+
+#fim_caixaGaleria p:nth-of-type(1){
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#fim_caixaGaleria p:nth-of-type(1), #fim_caixaGaleria p:nth-of-type(2){
+    margin-left: 50px;
+    gap: 10px;
+} 
+
+/* FIM ESTILO CAIXA GALERIA */
 
 
 
