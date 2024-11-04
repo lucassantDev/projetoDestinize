@@ -705,9 +705,19 @@ footer{
     
     /* ESTILO LOGOMARCAS */
     #logomarcas{
-        width: 100%px;
-        height: 800px;
+        width: 100%;
+        height: 600px;
         flex-wrap: wrap;
+        margin-top: 30px;
+    }
+
+    .medidas_logomarca{
+        width: fit-content;
+        height: fit-content;
+    }
+
+    #logomarcas div{
+        scale: 0.8;
     }
 
 
@@ -766,6 +776,7 @@ footer{
     #caixaReserva{
         display: flex;
         flex-direction: column;
+        height: 1100px;
     }
     
     #textos_caixaReserva{
@@ -813,7 +824,7 @@ footer{
     
     #subdiv{
         width: 420px;
-        height: 400px;
+        height: 410px;
         background-image: url(img/reserva.png);
         background-size: cover;
     }
@@ -823,6 +834,7 @@ footer{
 
 
     /* ESTILO CAIXA MAPA - SMARTPHONE */
+    
     #titulo_caixaMapa{
         text-align: center;
         margin-top: 40px;
@@ -857,6 +869,7 @@ footer{
         width: 100%;
         height: 300px;
         margin-top: 20px;
+        margin-bottom: 50px;
         flex-wrap: wrap;
     }
 
@@ -915,6 +928,15 @@ footer{
         height: 200px;
     }
 
+    #texto_fim_caixaGaleria p:nth-of-type(1){
+        font-size: 15px;
+
+    }
+
+    #texto_fim_caixaGaleria p:nth-of-type(2){
+        font-size: 10px;
+        
+    }
 
     /* FIM ESTILO CAIXA GALERIA - SMARTPHONE */
 
@@ -924,6 +946,7 @@ footer{
 
     #caixaDepoimentos{
         height: 1430px;
+        margin-top: 40px;
     }
 
     #titulo_caixaDepoimento h1{
@@ -956,6 +979,7 @@ footer{
 
     footer{
         padding-top: 30px;
+        font-size: 10px;
     }
     /* FIM ESTILO ULTIMA CAIXA - SMARTPHONE */
 }
@@ -1014,17 +1038,21 @@ footer{
         height: 400px;
         flex-wrap: wrap;
         gap: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
     }
 
     /* FIM DO ESTILO LOGOMARCAS */
 
 
     /* ESTILO CAIXA DESTINO - TABLET */
-    .medidaCaixa{
-        width: 100%;
+    #caixaDestino{
         height: 800px;
+        border: 1px solid red;
     }
-
+    
     #titulo_caixaDestino h1{
         text-align: center;
         margin-left: 0px;
@@ -1033,13 +1061,15 @@ footer{
     #titulo_caixaDestino h4{
         text-align: center;
         margin-left: 0px;
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     #imagens_caixaDestino{
         display: flex;
-        gap: 30px;
         flex-wrap: wrap;
+        border: 1px solid red;
+        height: 500px;
+        align-items: center;
     }
 
     .tamanho_imagens_caixaDestino{
@@ -1048,6 +1078,7 @@ footer{
         border-radius: 20px;
         color: var(--Azul);
         margin-bottom: 10px;
+        margin-top: 10px;
     }
     
     .caixa_pequena_caixaDestino{
@@ -1075,6 +1106,8 @@ footer{
     #caixaReserva{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
     #textos_caixaReserva{
@@ -1129,6 +1162,7 @@ footer{
     }
 
     /* FIM ESTILO CAIXA RESERVA - TABLET */
+
 
     /* ESTILO CAIXA MAPA - TABLET */
     #titulo_caixaMapa{
@@ -1232,6 +1266,16 @@ footer{
         height: 300px;
         border-radius: 0px;
         margin-bottom: 20px;
+    }
+
+    #texto_fim_caixaGaleria p:nth-of-type(1){
+        font-size: 20px;
+
+    }
+
+    #texto_fim_caixaGaleria p:nth-of-type(2){
+        font-size: 15px;
+        
     }
 
     /* FIM ESTILO CAIXA GALERIA - TABLET*/
