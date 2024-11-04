@@ -5,6 +5,21 @@
 
 @import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
 
+
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+/* PLAY - CAIXA VIAJANTE */
+
+
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-bold-straight/css/uicons-bold-straight.css');
+/* LOCALIZAÇÃO - CAIXA MAPA */
+
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-bold-straight/css/uicons-bold-straight.css');
+/* CORAÇÃO - CAIXA MAPA */
+
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-bold-straight/css/uicons-bold-straight.css');
+/* PESSOAS - CAIXA MAPA */
+
+
 @import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css');
 /* ESTRELA - CAIXA DEPOIMENTO */
 
@@ -31,7 +46,6 @@ body{
 .medida_caixaGaleria{
     height: 1000px;
     width: 100%;
-    border: 1px solid red;
 }
 
 /* Cabelçalho para pc, mas também serve para as medidas do tablet */
@@ -75,7 +89,6 @@ header{
 #logo_topo_celular{
     width: 190px;
     height: 70px;
-    /* border: 1px solid red; */
     background-image: url(img/logomarca\ \(1\).png);
     background-size: cover;
 }
@@ -98,7 +111,6 @@ header{
 .medidaCaixa{
     width: 100%;
     height: 700px;
-    /* border: 1px solid red; */
 }
 
 #caixaViajante{
@@ -126,7 +138,6 @@ header{
 
 
 #botao_icone_caixaViajante{
-    /* border: 1px solid red; */
     width: 500px;
     margin-left: 20px;
     display: flex;
@@ -160,6 +171,18 @@ header{
     border-radius: 30px;
     background-color: white;
     border: 1px solid var(--Azul);
+    color: var(--Azul);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#img_icone_caixaViajante:hover{
+    background-color: var(--Azul);
+    color: white;
+    transition: 0.2s;
 }
 
 #text_icone_caixaViajante{
@@ -181,7 +204,6 @@ header{
 #logomarcas{
     width: 100%;
     height: 300px;
-    /* border: 1px solid red; */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -190,7 +212,6 @@ header{
 .medidas_logomarca{
     width: 200px;
     height: 200px;
-    /* border: 1px solid red; */
 }
 
 #latam, #alitalia, #expedia, #qantas{
@@ -206,7 +227,6 @@ header{
 .medidaCaixa{
     width: 100%;
     height: 700px;
-    border: 1px solid red;
 }
 
 #imagens_caixaDestino{
@@ -238,7 +258,6 @@ header{
     height: 350px;
     border-radius: 20px;
     color: var(--Azul);
-    /* border: 1px solid red; */
 }
 
 .caixa_pequena_caixaDestino{
@@ -299,7 +318,6 @@ header{
 #textos_caixaReserva{
     width: fit-content;
     height: 500px ;
-    border: 1px solid red;
 }
 
 #titulo_caixaReserva h1{
@@ -356,7 +374,6 @@ header{
     height: 500px;
     background-image: url(img/reserva.png);
     background-size: cover;
-    border: 1px solid red;
 }
 
 /* FIM ESTILO DIV CAIXA RESERVA */
@@ -403,6 +420,11 @@ header{
     border-radius: 20px;
     background-color: var(--Cinza_claro);
     margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: black;
 }
 
 #iconeLocalizacao_caixaMapa, #iconeCoracao_caixaMapa, #iconePessoas_caixaMapa{
@@ -417,7 +439,6 @@ header{
 
 #titulo_caixaGaleria{
     width: 100%;
-    /* border: 1px solid red; */
 }
 
 
@@ -440,7 +461,6 @@ header{
     justify-content: space-between;
     width: 90%;
     height: 490px;
-    /* border: 1px solid red; */
     margin: auto;
 }
 
@@ -497,7 +517,6 @@ header{
 
 #texto_fim_caixaGaleria{
     text-align: left;
-    border: 1px solid red;
     margin-left: 20px;
 }
 
@@ -575,32 +594,44 @@ header{
 
 /* FIM ESTILO CAIXA DEPOIMENTO */
 
+
 /* ESTILO ULTIMA CAIXA */
+
 
 #ultimaCaixa{
     width: 50%;
     height: 60%;
-    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#ultimaCaixa > p{
+#conteudoInterno_ultimaCaixa{
+    width: fit-content;
+    height: fit-content;
+
+}
+
+
+#conteudoInterno_ultimaCaixa > p{
     color: var(--Cinza_claro);
-    font-size: 13px;
+    font-size: 17px;
 }
 
 footer{
     width: 100%;
     height: 10%;
-    border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--Cinza_claro);
     font-weight: 500;
+    
 }
 
 
 /* FIM ESTILO ULTIMA CAIXA */
+
 
 
 /* CONFIGURAÇÕES PARA CELULAR */
@@ -677,7 +708,6 @@ footer{
         width: 100%px;
         height: 800px;
         flex-wrap: wrap;
-        border: 1px solid red;
     }
 
 
@@ -712,7 +742,6 @@ footer{
         height: 250px;
         border-radius: 20px;
         color: var(--Azul);
-        border: 1px solid red;
         margin-bottom: 10px;
     }
     
@@ -742,7 +771,6 @@ footer{
     #textos_caixaReserva{
         width: 100%;
         height: 500px ;
-        border: 1px solid red;
     }
     
     #titulo_caixaReserva h1{
@@ -788,7 +816,6 @@ footer{
         height: 400px;
         background-image: url(img/reserva.png);
         background-size: cover;
-        border: 1px solid red;
     }
     
 
@@ -814,7 +841,7 @@ footer{
     }
 
     #imagem_caixaMapa{
-        width: 300px;
+        width: 90vw;
         height: 300px;
         background-image: url(img/mapa.png);
         background-size: cover;
@@ -822,6 +849,8 @@ footer{
         margin-top: 30px;
     }
     /* FIM ESTILO CAIXA MAPA - SMARTPHONE */
+
+
 
     /* ESTILO CAIXA ICONE CAIXA MAPA - SMARTPHONE*/
     #icones_caixaMapa{
@@ -839,13 +868,96 @@ footer{
         margin-right: 20px;
     }
 
-    #iconeLocalizacao_caixaMapa, #iconeCoracao_caixaMapa, #iconePessoas_caixaMapa{
-        
-    }
     /* FIM ESTILO CAIXA ICONE CAIXA MAPA - SMARTPHONE*/
 
 
+    /* ESTILO CAIXA GALERIA - SMARTPHONE */
 
+    #caixaGaleria{
+        height: 1100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #caixaGaleria > #titulo_caixaGaleria{
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    #titulo_caixaGaleria h4{
+        margin-left: 0px;
+    }
+
+    #titulo_caixaGaleria > h1{
+        margin-left: 0px;
+    }
+
+    #imagens_caixaGaleria{
+        height: 600px;
+        flex-direction: column;
+    }
+
+    #imagens_caixaGaleria > #foto_01{
+        scale: 0.9;
+    }
+
+    #video_caixaGaleria{
+        border-radius: 0px;
+        width: 100%;
+        height: 200px;
+        margin-top: 30px;
+        margin-bottom: -30px;
+    }
+
+    #fim_caixaGaleria{
+        border-radius: 0px;
+        width: 90%;
+        height: 200px;
+    }
+
+
+    /* FIM ESTILO CAIXA GALERIA - SMARTPHONE */
+
+
+
+    /* ESTILO CAIXA DEPOIMENTOS - SMARTPHONE*/
+
+    #caixaDepoimentos{
+        height: 1430px;
+    }
+
+    #titulo_caixaDepoimento h1{
+        font-size: 30px;
+    }
+
+    #feedback_caixaDepoimentos{
+        flex-wrap: wrap;
+        height: 1200px;
+    }
+
+    .quadro_Depoimentos{
+        scale: 0.8;
+        gap: 5px;
+    }
+
+    /* FIM ESTILO CAIXA DEPOIMENTOS - SMARTPHONE */
+
+
+    /* ESTILO ULTIMA CAIXA - SMARTPHONE */
+    #ultimaCaixa{
+        width: 100%;
+        padding: 10px;
+        
+    }
+
+    #conteudoInterno_ultimaCaixa > p{
+        font-size: 10px;
+    }
+
+    footer{
+        padding-top: 30px;
+    }
+    /* FIM ESTILO ULTIMA CAIXA - SMARTPHONE */
 }
 
 
@@ -855,6 +967,10 @@ footer{
 @media (min-width: 481px) and (max-width: 1024px){
     header{
         display: flex;
+    }
+
+    *{
+        margin: 0px;
     }
 
     /* CAIXA VIAJANTE - TABLET */
@@ -931,7 +1047,6 @@ footer{
         height: 250px;
         border-radius: 20px;
         color: var(--Azul);
-        border: 1px solid red;
         margin-bottom: 10px;
     }
     
@@ -965,7 +1080,6 @@ footer{
     #textos_caixaReserva{
         width: 100%;
         height: 600px ;
-        border: 1px solid red;
     }
     
     #titulo_caixaReserva h1{
@@ -1011,7 +1125,7 @@ footer{
         height: 300px;
         background-image: url(img/reserva.png);
         background-size: cover;
-        border: 1px solid red;
+
     }
 
     /* FIM ESTILO CAIXA RESERVA - TABLET */
@@ -1035,8 +1149,8 @@ footer{
     }
 
     #imagem_caixaMapa{
-        width:auto;
-        height: 400px;
+        width: 90vw;
+        height: 500px;
         background-image: url(img/mapa.png);
         background-size: cover;
         margin: auto;
@@ -1046,11 +1160,11 @@ footer{
 
 
 
-
     /* ESTILO CAIXA ICONE CAIXA MAPA - TABLET */
     #icones_caixaMapa{
     width: 100%;
     height: 300px;
+    padding-bottom: 30px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -1071,6 +1185,87 @@ footer{
 
 
     /* FIM ESTILO CAIXA ICONE CAIXA MAPA - TABLET*/
+
+
+    /* ESTILO CAIXA GALERIA - TABLET */
+
+    #caixaGaleria{
+        height: 1270px;
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #caixaGaleria > #titulo_caixaGaleria{
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    #titulo_caixaGaleria h4{
+        margin-left: 0px;
+    }
+
+    #titulo_caixaGaleria > h1{
+        margin-left: 0px;
+    }
+
+    #imagens_caixaGaleria{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 90%;
+        height: 800px;
+        
+    }
+
+    #video_caixaGaleria{
+        width: 89%;
+        height: 300px;
+        border-radius: 0px;
+    }
+
+    #fim_caixaGaleria{
+        width: 80%;
+        height: 300px;
+        border-radius: 0px;
+        margin-bottom: 20px;
+    }
+
+    /* FIM ESTILO CAIXA GALERIA - TABLET*/
+
+
+    /* ESTILO CAIXA DEPOIMENTOS - TABLET*/
+
+    #caixaDepoimentos{
+        height: fit-content;
+    }
+
+    #feedback_caixaDepoimentos{
+        flex-direction: column;
+        height: 1300px;
+    }
+
+    .quadro_Depoimentos{
+        scale: 1;
+    }
+
+    /* FIM ESTILO CAIXA DEPOIMENTOS - TABLET */
+
+
+    /* ESTILO ULTIMA CAIXA - TABLET */
+     #ultimaCaixa{
+        width: 100%;
+        padding: 10px;
+        
+    }
+
+    #conteudoInterno_ultimaCaixa > p{
+        font-size: 17px;
+    }
+    /* FIM ESTILO ULTIMA CAIXA - TABLET */
 
 
 
