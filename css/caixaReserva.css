@@ -1,0 +1,68 @@
+.caixaReserva{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+}
+
+#textos_caixaReserva{
+    width: fit-content;
+    height: 500px;
+}
+
+#titulo_caixaReserva h1{
+    color: var(--Texto_escuro);
+    font-size:50px;
+    margin-bottom: 30px;
+}
+
+#titulo_caixaReserva h4{
+    font-size:15px;
+    margin-bottom: 10px;
+}
+
+#iconeLupa_caixaReserva{
+    gap: 20px;
+    display:flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#iconeLapis_caixaReserva{
+    gap: 20px;
+    display:flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#iconeEmoji_caixaReserva{
+    gap: 20px;
+    display:flex;
+    align-items: center;
+}
+
+.icones_caixaReserva{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    background-image: linear-gradient(45deg, rgba(163, 163, 91, 0.616),rgb(231, 231, 62)) ;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagem_caixaReserva{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+}
+
+#subdiv{
+    width: 450px;
+    height: 450px;
+    background-image: url(../img/reserva.png);
+    background-size: cover;
+}

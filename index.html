@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Projeto</title>
+    <link rel="stylesheet" href="import.css">
+    <title>Projeto Destinize</title>
 </head>
 <body>
-    <header>  <!-- CABEÇALHO CELULAR -->
 
-            <img src="img/logomarca (1).png" alt="">
+    <header>
+
+        <img src="img/logomarca (1).png" alt="">
         <div id="iconeConta">
             <div id="iconeConta_pessoa">
                 <i class="fi fi-rr-user"></i>
@@ -18,52 +20,52 @@
                 <p><strong>Minha conta</strong></p>
             </div>
         </div>
-        
-    </header> <!-- FIM DO CABEÇALHO-->
 
-        <!-- ABAIXO, DIV DO CABEÇALHOO PARA CELULAR -->
+    </header> 
+    <!-- FIM DO CABEÇALHO-->
 
-        <div id="cabecalho_Celular">
-            <div id="logo_topo_celular">    </div>
-            <div>
-                <div id="icone_celular">   
-                    <i class="fi fi-rr-user"></i>
-                </div>
+    <!-- ABAIXO, DIV DO CABEÇALHOO PARA CELULAR -->
+    <div id="cabecalho_Celular">
+        <div id="logo_topo_celular"></div>
+        <div>
+            <div id="icone_celular">   
+                <i class="fi fi-rr-user"></i>
             </div>
         </div>
+    </div>
+    <!-- FIM DA DIV CABEÇALHO PARA CELULAR -->
 
-        <!-- FIM DA DIV CABEÇALHO PARA CELULAR -->
-
-
-    <div id="caixaViajante" class="medidaCaixa">
+    <div class="caixaViajante">
        
         <div id="titulo_caixaViajante">
             <h1>Viaje pelo mundo <br> <span>aproveite</span> os <br> melhores destinos</h1>
-
             <div id="lorem_caixaViajante">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Ratione commodi neque velit libero voluptatibus explicabo odit <br> magnam accusantium ad laudantium sapiente porro ipsa, <br> sint fuga voluptates reiciendis, dolorum assumenda? Eum!
                 </p>
             </div>
             
-            <div id="botao_icone_caixaViajante">
-                <div id="botao_caixaViajante"> <p> Cadastrar-se </p> </div>
-                <div id="icone_caixaViajante">
-                    <div id="img_icone_caixaViajante"> 
-                        <i class="fi fi-rr-play"></i>
-                        <!-- icone aqui --> 
+            <div id="botao-icone">
+                <div id="botao-viajante"> 
+                    <p>Cadastre-se</p> 
+                </div>
+                <div id="icone-viajante">
+                    <div id="icone"> 
+                        <i class="fi fi-rr-play"></i> <!-- icone aqui --> 
                     </div>
-                    <div id="text_icone_caixaViajante"> <p> <strong> Veja como funciona</strong> </p> </div>
+                    <div id="icone-texto"> 
+                        <p> <strong> Veja como funciona</strong> </p> </div>
                 </div>
             </div>
+
         </div>
         
-        <div id="imagem_caixaViajante">
-            <!-- IMAGEM AQUI -->
+        <div class="imagem-viajante">
+            <img src="img/viajante.png" alt="imagem ilustarndo viajante">
         </div>
 
-    </div> <!-- FIM DA DIV CAIXA VIAJANTE-->
-
+    </div> 
+    <!-- FIM DA DIV CAIXA VIAJANTE-->
 
     <div id="logomarcas">
         <div id="latam" class="medidas_logomarca">
@@ -78,20 +80,20 @@
         <div id="alitalia" class="medidas_logomarca">
             <!-- Alitalia --> <img src="img/alitalia.png" alt="">
         </div>
-    </div> <!-- FIM DA DIV LOGOMARCAS-->
+    </div> 
+    <!-- FIM DA DIV LOGOMARCAS-->
 
+    <div class="caixaDestino">
 
-    <div id="caixaDestino" class="medidaCaixa">
-
-        <div id="titulo_caixaDestino">
+        <div class="titulo-destinos">
             <h4><span>DESTINOS FAVORITOS</span></h4>
             <h1>Venha escolher o destino da sua próxima viagem</h1>
         </div>
 
-        <div id="imagens_caixaDestino">
+        <div id="imagens-caixa-destino">
 
-            <div class="tamanho_imagens_caixaDestino" id="Brasil">
-                <div class="caixa_pequena_caixaDestino">
+            <div class="tamanho-caixa-destino" id="Brasil">
+                <div class="destino-informado">
                     <div>
                         <p><strong>Fernando <br> de Noronha</strong></p>
                         <p style="color: #9A9EA6;">Brasil</p>
@@ -99,8 +101,8 @@
                 </div>
             </div>
 
-            <div class="tamanho_imagens_caixaDestino" id="Marrocos">
-                <div class="caixa_pequena_caixaDestino">
+            <div class="tamanho-caixa-destino" id="Marrocos">
+                <div class="destino-informado">
                     <div>
                         <p><strong> Monhtanhas<br> Atlas</strong></p>
                         <p style="color: #9A9EA6;">Marrocos</p>
@@ -108,8 +110,8 @@
                 </div>
             </div>
 
-            <div class="tamanho_imagens_caixaDestino" id="Chile">
-                <div class="caixa_pequena_caixaDestino">
+            <div class="tamanho-caixa-destino" id="Chile">
+                <div class="destino-informado">
                     <div>
                         <p><strong>Valparaíso</strong></p>
                         <p style="color: #9A9EA6;" class="segundoP">Chile</p>
@@ -117,8 +119,8 @@
                 </div>
             </div>
 
-            <div class="tamanho_imagens_caixaDestino" id="Holanda">
-                <div class="caixa_pequena_caixaDestino">
+            <div class="tamanho-caixa-destino" id="Holanda">
+                <div class="destino-informado">
                     <div>
                         <p><strong>Begijnhof</strong></p>
                         <p style="color: #9A9EA6;" class="segundoP">Holanda</p>
@@ -127,10 +129,10 @@
             </div>
 
         </div>
-    </div>  <!-- FIM DIV CAIXA DESTINO-->
+    </div>
+    <!-- FIM DIV CAIXA DESTINO-->
 
-
-    <div id="caixaReserva" class="medidaCaixa">
+    <div class="caixaReserva">
 
         <div id="textos_caixaReserva">
             <div id="titulo_caixaReserva">
@@ -172,7 +174,9 @@
             </div>
         </div>
 
-    </div> <!-- FIM DIV CAIXA RESERVA-->
+    </div>
+    <!-- FIM DIV CAIXA RESERVA-->
+
 
     <div id="caixaMapa" class="medidaCaixa">
 
@@ -188,7 +192,8 @@
             <!-- imagem aqui -->
         </div>
 
-    </div> <!--FIM DIV CAIXA MAPA-->
+    </div>
+    <!--FIM DIV CAIXA MAPA-->
 
     <div id="icones_caixaMapa">
 
@@ -237,12 +242,13 @@
             </div>
         </div>
 
-    </div> <!-- FIM DIV ICONES CAIXA MAPA-->
+    </div>
+    <!-- FIM DIV ICONES CAIXA MAPA-->
 
     
     <div id="caixaGaleria" class="medida_caixaGaleria">
 
-        <div id="titulo_caixaGaleria">
+        <div class="titulo-destinos">
             <h4><span>CONHECER O DESTINO</span></h4>
             <h1>Galeria de turismo e blog de viagens</h1>
         </div>
@@ -274,7 +280,8 @@
             </div>
         </div>
 
-    </div> <!-- FIM DIV CAIXA GALERIA-->
+    </div>
+    <!-- FIM DIV CAIXA GALERIA-->
 
     <div  id="caixaDepoimentos" class="medidaCaixa">
 
@@ -331,7 +338,8 @@
 
         </div>
 
-    </div> <!-- FIM DIV CAIXA DEPOIMENTOS-->
+    </div>
+    <!-- FIM DIV CAIXA DEPOIMENTOS-->
 
     <div id="termino" class="medidaCaixa">
         
@@ -347,7 +355,8 @@
         <footer>
             <p>© 2021 - 2024 todos os direitos reservados</p>
         </footer>
-    </div> <!-- FIM DA CAIXA TÉRMINO-->
+    </div>
+    <!-- FIM DA CAIXA TÉRMINO-->
 
 
 </body>

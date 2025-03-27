@@ -1,0 +1,18 @@
+#logomarcas{
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.medidas_logomarca{
+    width: 300px;
+    height: 300px;
+}
+
+#latam, #alitalia, #expedia, #qantas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
