@@ -183,7 +183,6 @@
 
 
 /* ESTILO CAIXA DEPOIMENTO */
-
 #titulo_caixaDepoimento{
     text-align: center;
     margin-top: 40px;
@@ -243,14 +242,9 @@
     color:rgb(211, 175, 15);
     font-size: 25px ;
 }
-
-
 /* FIM ESTILO CAIXA DEPOIMENTO */
 
-
 /* ESTILO ULTIMA CAIXA */
-
-
 #ultimaCaixa{
     width: 50%;
     height: 60%;
@@ -264,7 +258,6 @@
     height: fit-content;
 
 }
-
 
 #conteudoInterno_ultimaCaixa > p{
     color: var(--Cinza_claro);
@@ -281,8 +274,6 @@ footer{
     font-weight: 500;
     
 }
-
-
 /* FIM ESTILO ULTIMA CAIXA */
 
 
@@ -320,7 +311,6 @@ footer{
 
     #titulo_caixaViajante h1{
         font-size: 40px;
-        
     }
 
     #lorem_caixaViajante{
@@ -952,14 +942,10 @@ footer{
      #ultimaCaixa{
         width: 100%;
         padding: 10px;
-        
     }
 
     #conteudoInterno_ultimaCaixa > p{
         font-size: 17px;
     }
     /* FIM ESTILO ULTIMA CAIXA - TABLET */
-
-
-
 }
