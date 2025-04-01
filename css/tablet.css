@@ -2,10 +2,8 @@
 @media (min-width: 481px) and (max-width: 1024px){
     header{
         display: flex;
-    }
-
-    *{
-        margin: 0px;
+        width: 100%;
+        border: 1px solid red;
     }
 
     /* CAIXA VIAJANTE - TABLET */

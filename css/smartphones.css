@@ -1,29 +1,22 @@
 /* CONFIGURAÇÕES PARA CELULAR */
 @media (max-width: 480px){
     header{
+        border: 1px solid red;
+    }
+
+    header > img{
+        scale: 0.5;
+        border: 1px solid red;
+    }
+
+    .minha-conta{
         display: none;
     }
 
-    *{
-        margin: 0px;
-    }
-
-    #cabecalho_Celular{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        width: 100%;
-    }
-
-    /* CAIXA VIAJANTE - SMARTPHONES */
-    .medidaCaixa{
-        width: 100%;
-        height: 800px;
-    }
-
     /* ESTILO CAIXA VIAJANTE - SMARTPHONES */
-    #caixaViajante{
+    .caixa-viajante{
         width: 100%;
+        border: 1px solid red;
         text-align: center;
         flex-direction: column-reverse;
     }
@@ -36,54 +29,60 @@
         font-size: 12px;
     }
 
-    #botao_icone_caixaViajante{
+    #botao-icone{
         width: fit-content;
+        border: 1px solid red;
     }
 
-    #botao_caixaViajante{
+    #botao-viajante{
         background-color: var(--Azul);
         color: white;
         font-size: 12px;
         padding: 15px;
         border-radius: 10px;
+        width: 100px;
     }
 
-    #img_icone_caixaViajante{
+    #icone-viajante{
         width: 40px;
         height: 40px;
         border-radius: 20px;
+        border: 1px solid red;
         background-color: white;
         border: 1px solid var(--Azul);
     }
 
-    #imagem_caixaViajante{
+    .imagem-viajante{
         width: 450px;
         height: 450px;
+        scale: 0.8;
     } 
     /* FIM DO ESTILO CAIXA VIAJANTE - SMARTPHONE */
     
     /* ESTILO LOGOMARCAS */
     #logomarcas{
         width: 100%;
-        height: 600px;
+        height: 105vh;
         flex-wrap: wrap;
-        margin-top: 30px;
+        border: 1px solid red;
     }
 
     .medidas_logomarca{
-        width: fit-content;
-        height: fit-content;
+        width: 250px;
+        height: 250px;
+        border: 1px solid red;
     }
 
     #logomarcas div{
-        scale: 0.8;
+        scale: 0.5;
     }
     /* FIM DO ESTILO LOGOMARCAS */
         
     /* ESTILO CAIXA DESTINO - SMARTPHONE */
-    .medidaCaixa{
+    .caixaDestino{
         width: 100%;
         height: fit-content;
+        border: 1px solid red;
     }
 
     #titulo_caixaDestino h1{
@@ -97,13 +96,13 @@
         margin-top: 20px;
     }
 
-    #imagens_caixaDestino{
+    #imagens-caixa-destino{
         display: flex;
         gap: 30px;
         flex-wrap: wrap;
     }
 
-    .tamanho_imagens_caixaDestino{
+    .tamanho-caixa-destino{
         width: 200px;
         height: 250px;
         border-radius: 20px;
@@ -111,7 +110,7 @@
         margin-bottom: 10px;
     }
     
-    .caixa_pequena_caixaDestino{
+    .destino-informado{
         width: 130px;
         height: 80px;
         margin-top: 170px;
@@ -119,22 +118,26 @@
         border-top-right-radius: 20px;
         background-color: rgb(240, 230, 230);
     }
-    .caixa_pequena_caixaDestino strong{
+
+    .destino-informado strong{
         color: black;
     }
     /* FIM ESTILO CAIXA DESTINO - SMARTPHNONE */
     
     /* ESTILO CAIXA RESERVA - SMARTPHONE */
 
-    #caixaReserva{
+    .caixaReserva{
         display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
-        height: 1100px;
+        height: 105vh;
+        border: 1px solid red;
     }
     
     #textos_caixaReserva{
         width: 100%;
-        height: 500px ;
+        height: 500px;
     }
     
     #titulo_caixaReserva h1{
