@@ -1,0 +1,31 @@
+footer{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--Cinza_claro);
+}
+
+#ultima-caixa{
+    width: 50%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#conteudo-ultima-caixa{
+    width: fit-content;
+    height: fit-content;
+}
+
+#conteudo-ultima-caixa > p{
+    color: var(--Cinza_claro);
+    font-size: 17px;
+}
+
+.direitos-reservados{
+    width: 100%;
+    text-align: center;
+}

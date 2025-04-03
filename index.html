@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="import.css">
+    <link rel="stylesheet" href="second-import.css">
     <title>Projeto Destinize</title>
 </head>
 <body>
+
     <header>
         <img src="img/logomarca (1).png" alt="logo da empresa">
         <div id="iconeConta">
@@ -22,9 +23,10 @@
     <!-- FIM DO CABEÇALHO-->
 
     <section class="caixa-viajante">
-        <div id="titulo_caixaViajante">
+
+        <div id="titulo-caixa-viajante">
             <h1>Viaje pelo mundo <br> <span>aproveite</span> os <br> melhores destinos</h1>
-            <div id="lorem_caixaViajante">
+            <div id="lorem-caixa-viajante">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Ratione commodi neque velit libero voluptatibus explicabo odit <br> magnam accusantium ad laudantium sapiente porro ipsa, <br> sint fuga voluptates reiciendis, dolorum assumenda? Eum!
                 </p>
@@ -161,10 +163,9 @@
     </section>
     <!-- FIM DIV CAIXA RESERVA-->
 
+    <section class="caixa-mapa">
 
-    <section id="caixaMapa" class="medidaCaixa">
-
-        <div id="titulo_caixaMapa">
+        <div id="titulo-caixa-mapa">
             <h4><span>BUSCAR POR ATRAÇÕES TURÍSTICAS</span></h4>
             <h1>Procure por atrações turísticas perto de você</h1>
             <p>
@@ -230,20 +231,20 @@
     <!-- FIM DIV ICONES CAIXA MAPA-->
 
     
-    <div id="caixaGaleria" class="medida_caixaGaleria">
+    <section class="caixa-galeria"> <!-- a class 'caixa-galeria' está no arquivo components.css-->
 
-        <div class="titulo-destinos">
+        <div class="titulo-destinos"> <!-- a class 'titulo-destinos' também está no arquivo components.css-->
             <h4><span>CONHECER O DESTINO</span></h4>
             <h1>Galeria de turismo e blog de viagens</h1>
         </div>
 
-        <div id="imagens_caixaGaleria">
+        <div id="imagens-caixa-galeria">
 
-            <div id="foto_01">
-                <div id="imagem_foto_01">
+            <div id="foto-monte-bromo">
+                <div id="imagem-monte-bromo">
                     <!-- imagem aqui -->
                 </div>
-                <div id="texto_foto_01">
+                <div id="texto-monte-bromo">
                     <p> 26 | Dezembro de 2021</p>
                     <p><strong>Dicas para escalar o Monte <br> Bromo sem se cansar</strong></p>
                     <p>então você conhece o Monte Bromo? Sim, uma montanha né!</p>
@@ -251,25 +252,25 @@
                 </div>
             </div>
 
-            <div id="video_caixaGaleria">
+            <div id="video-caixa-galeria">
                 <!-- imagem aqui -->
             </div>
 
         </div>
 
-        <div id="fim_caixaGaleria">
-            <div id="texto_fim_caixaGaleria">
+        <div id="imagem-bottom-caixa-galeria">
+            <div id="texto-final-caixa-galeria">
                 <p><strong>Dicas para o consumo de água nos locais mais remotos</strong></p>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint aspernatur nulla inventore <br> tempore delectus odit doloremque id temporibus</p>
             </div>
         </div>
 
-    </div>
+    </section>
     <!-- FIM DIV CAIXA GALERIA-->
 
-    <section  id="caixaDepoimentos" class="medidaCaixa">
+    <section  class="caixa-depoimentos">
 
-        <div id="titulo_caixaDepoimento">
+        <div id="titulo-caixa-depoimentos">
             <h4><span>DEPOIMENTOS DE TESTEMUNHAS</span></h4>
             <h1>O que dizem sobre nós?</h1>
             <p>
@@ -278,10 +279,10 @@
             </p>
         </div>
 
-        <div id="feedback_caixaDepoimentos">
+        <article id="feedback-caixa-depoimentos">
 
-            <div class="quadro_Depoimentos">
-                <div id="imagem_01" class="circulo_Depoimentos"></div>
+            <div class="caixa-depoimento">
+                <div id="imagem_01" class="imagem-depoimento"></div>
                 <p>Destinize me ajudou <br> em busca de novos pontos turísticos <br> na Indonésia facilmente</p>
                 <div class="estrela">
                     <i class="fi fi-ss-star"></i>
@@ -293,8 +294,8 @@
                 <p><strong><span>Sandro Sardinha</span></strong></p>
             </div>
 
-            <div class="quadro_Depoimentos">
-                <div id="imagem_02"  class="circulo_Depoimentos"></div>
+            <div class="caixa-depoimento">
+                <div id="imagem_02"  class="imagem-depoimento"></div>
                 <p>Destinize me ajudou a encontrar <br> uma alma gêmea, inesperadamente <br> que minha alma gêmea é...</p>
                 <div class="estrela">
                     <i class="fi fi-ss-star"></i>
@@ -307,8 +308,8 @@
 
             </div>
 
-            <div class="quadro_Depoimentos">
-                <div id="imagem_03"  class="circulo_Depoimentos"></div>
+            <div class="caixa-depoimento">
+                <div id="imagem_03"  class="imagem-depoimento"></div>
                 <p>A Fenda do Biquini está se tornando muito <br> lotada de visitantes depois que <br> eu inseri na Destinize</p>
                 <div class="estrela">
                     <i class="fi fi-ss-star"></i>
@@ -320,15 +321,15 @@
                 <p><strong><span>Petrik Sesat</span></strong></p>
             </div>
 
-        </div>
+        </article>
 
     </section>
     <!-- FIM DIV CAIXA DEPOIMENTOS-->
 
-    <footer class="medidaCaixa">
+    <footer>
         
-        <div id="ultimaCaixa">
-            <div id="conteudoInterno_ultimaCaixa">
+        <div id="ultima-caixa">
+            <div id="conteudo-ultima-caixa">
                 <img src="img/logomarca2.png" alt="">
                 <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, <br> delectus odit, reprehenderit nisi sapiente tempore, repellendus asperiores <br> culpa commodi recusandae modi alias explicabo maxime <br> doloribus repellat molestiae voluptas eius dolores?
@@ -339,7 +340,7 @@
         <p class="direitos-reservados">© 2021 - 2024 todos os direitos reservados</p>
 
     </footer>
-    <!-- FIM DA CAIXA TÉRMINO-->
+    <!-- fim da tag Footer -->
 
 </body>
 </html>

@@ -1,0 +1,71 @@
+#imagens-caixa-galeria{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90vw;
+    height: 490px;
+    margin: auto;
+}
+
+#foto-monte-bromo{
+    min-width: 300px;
+    max-width: 350px;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 30px  rgba(196, 194, 194, 0.24);
+}
+
+#imagem-monte-bromo{
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+    background-image: url(../img/destino4.png);
+}
+
+#texto-monte-bromo p:nth-of-type(1), p:nth-of-type(3){
+    color: var(--Cinza_claro);
+}
+
+#texto-monte-bromo p:nth-of-type(2){
+    color: var(--Texto_escuro);
+}
+
+#texto-monte-bromo p{
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#video-caixa-galeria{
+    width: 800px;
+    height: 400px;
+    border-radius: 20px;
+    background-size: cover;
+    background-image: url(../img/video.png);
+    box-shadow: 0px 2px 30px  rgba(196, 194, 194, 0.24);
+}
+
+#imagem-bottom-caixa-galeria{
+    width: 87%;
+    height: 200px;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-size: cover;
+    background-image: url(../img/destino5.png);
+    box-shadow: 0px 2px 30px  rgba(196, 194, 194, 0.24);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#texto-final-caixa-galeria{
+    text-align: left;
+    margin-left: 20px;
+}
+
+#texto-final-caixa-galeria p:nth-of-type(1){
+    font-size: 25px;
+    margin-bottom: 10px;
+}

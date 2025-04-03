@@ -1,5 +1,3 @@
-@charset 'UTF-8';
-
 @import url(https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap);
 /* FONTE Plus Jakarta Sans */
 
@@ -39,16 +37,14 @@ body{
     margin: 0;
 }
 
-.medida_caixaGaleria{
+.caixa-galeria{
     height: 1000px;
     width: 100%;
-    border: 1px solid var(--Texto_escuro);
 }
 
 .titulo-destinos{
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 40px;
-    border: 1px solid red;
 }
 
 .titulo-destinos h1{

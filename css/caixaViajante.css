@@ -1,4 +1,3 @@
-
 .caixa-viajante{
     width: 100%;
     height: 900px;
@@ -7,7 +6,7 @@
     justify-content: space-evenly;
 }
 
-#titulo_caixaViajante > h1{
+#titulo-caixa-viajante > h1{
     min-width: 600px;
     max-width: 800px;
     font-size: 4rem;
@@ -16,7 +15,7 @@
     color: var(--Texto_escuro);
 }
 
-#lorem_caixaViajante{
+#lorem-caixa-viajante{
     margin-left: 20px;
     margin-bottom: 10px;
     font-weight: bold;

@@ -26,7 +26,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 .destino-informado strong{
@@ -36,25 +35,23 @@
 #Brasil{
     background-image: url(../img/destino2.png);
     background-size: cover;
-    box-shadow: 0px 5px 20px rgba(126, 126, 126, 0.829);
+    box-shadow: 0px 5px 30px  rgba(196, 194, 194, 0.884);
 }
 
 #Marrocos{
     background-image: url(../img/destino1.png);
     background-size: cover;
-    box-shadow: 0px 5px 20px rgba(126, 126, 126, 0.829);
-
+    box-shadow: 0px 5px 30px  rgba(196, 194, 194, 0.884);
 }
 
 #Chile{
     background-image: url(../img/destino5.png);
     background-size: cover;
-    box-shadow: 0px 5px 20px rgba(126, 126, 126, 0.829);
+    box-shadow: 0px 5px 30px  rgba(196, 194, 194, 0.884);
 }
 
 #Holanda{
     background-image: url(../img/destino4.png);
     background-size: cover;
-    box-shadow: 0px 5px 20px rgba(126, 126, 126, 0.829);
-
+    box-shadow: 0px 5px 30px  rgba(196, 194, 194, 0.884);
 }
