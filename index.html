@@ -1,346 +1,63 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="import.css">
-    <link rel="stylesheet" href="second-import.css">
-    <title>Projeto Destinize</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 <body>
-
     <header>
-        <img src="img/logomarca (1).png" alt="logo da empresa">
-        <div id="iconeConta">
-            <div id="iconeConta_pessoa">
-                <i class="fi fi-rr-user"></i>
-            </div>
-            <div class="minha-conta">
-                <p><strong>Minha conta</strong></p>
-            </div>
+        <img src="img/logomarca (1).png" alt="logo do cabeçalho">
+
+        <div id="icone-perfil">
+            <!-- icone -->
         </div>
-    </header> 
-    <!-- FIM DO CABEÇALHO-->
+    </header>
+    <main>
+        <section id="secao-imagemViajante">
 
-    <section class="caixa-viajante">
-
-        <div id="titulo-caixa-viajante">
-            <h1>Viaje pelo mundo <br> <span>aproveite</span> os <br> melhores destinos</h1>
-            <div id="lorem-caixa-viajante">
+            <div id="imagem-viajante">
+                <img src="img/viajante.png" alt="imagem viajante">
+            </div>
+            <div id="texto-secao-imagemViajante">
+                <h1>
+                    Viaje pelo mundo e<br>
+                    aproveite os melhores destinos.
+                </h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Ratione commodi neque velit libero voluptatibus explicabo odit <br> magnam accusantium ad laudantium sapiente porro ipsa, <br> sint fuga voluptates reiciendis, dolorum assumenda? Eum!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim architecto unde quo aliquam cumque quibusdam. Hic impedit nisi est asperiores assumenda labore cumque, debitis ducimus perferendis sunt quas quibusdam.
                 </p>
             </div>
-            
-            <div id="botao-icone">
-                <div id="botao-viajante"> 
-                    <p>Cadastre-se</p> 
-                </div>
-                <div id="icone-viajante">
-                    <div id="icone"> 
-                        <i class="fi fi-rr-play"></i> <!-- icone aqui --> 
-                    </div>
-                    <div id="icone-texto"> 
-                        <p> <strong> Veja como funciona</strong> </p> </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="imagem-viajante">
-            <img src="img/viajante.png" alt="imagem ilustarndo viajante">
-        </div>
-
-    </section> 
-    <!-- FIM DA DIV CAIXA VIAJANTE-->
-
-    <section id="logomarcas">
-        <div id="latam" class="medidas_logomarca">
-            <!-- Latam --> <img src="img/latam.png" alt="">
-        </div>
-        <div id="expedia" class="medidas_logomarca">
-            <!-- Expedia --> <img src="img/expedia.png" alt="">
-        </div>
-        <div id="qantas" class="medidas_logomarca">
-            <!-- Qantas --> <img src="img/qantas.png" alt="">
-        </div>
-        <div id="alitalia" class="medidas_logomarca">
-            <!-- Alitalia --> <img src="img/alitalia.png" alt="">
-        </div>
-    </section> 
-    <!-- FIM DA DIV LOGOMARCAS-->
-
-    <section class="caixaDestino">
-
-        <div class="titulo-destinos">
-            <h4><span>DESTINOS FAVORITOS</span></h4>
-            <h1>Venha escolher o destino da sua próxima viagem</h1>
-        </div>
-
-        <div id="imagens-caixa-destino">
-
-            <div class="tamanho-caixa-destino" id="Brasil">
-                <div class="destino-informado">
-                    <div>
-                        <p><strong>Fernando <br> de Noronha</strong></p>
-                        <p style="color: #9A9EA6;">Brasil</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="tamanho-caixa-destino" id="Marrocos">
-                <div class="destino-informado">
-                    <div>
-                        <p><strong> Monhtanhas<br> Atlas</strong></p>
-                        <p style="color: #9A9EA6;">Marrocos</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="tamanho-caixa-destino" id="Chile">
-                <div class="destino-informado">
-                    <div>
-                        <p><strong>Valparaíso</strong></p>
-                        <p style="color: #9A9EA6;" class="segundoP">Chile</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="tamanho-caixa-destino" id="Holanda">
-                <div class="destino-informado">
-                    <div>
-                        <p><strong>Begijnhof</strong></p>
-                        <p style="color: #9A9EA6;" class="segundoP">Holanda</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <!-- FIM DIV CAIXA DESTINO-->
-
-    <section class="caixaReserva">
-
-        <div id="textos_caixaReserva">
-            <div id="titulo_caixaReserva">
-                <h4><span>RESERVA</span></h4>
-                <h1>Não quer fazer fila? Basta <br> fazer uma reserva!</h1>
-            </div>
-            <div id="iconeLupa_caixaReserva">
-                <div class="icones_caixaReserva">
-                    🔎
-                </div>
+            <div id="botao-iconeSeta">
+                <button>Cadastre-se</button>
                 <div>
-                    <P><strong>Encontre o lugar que você deseja</strong></P>
-                    <p>Encontre o próximo destino que você <br> visitará com Destinze</p>
+                    <div id="seta"> > </div>
+                    <p>
+                        Veja como funciona
+                    </p>
                 </div>
             </div>
-            <div id="iconeLapis_caixaReserva">
-                <div class="icones_caixaReserva">
-                    ✏️
-                </div>
-                <div>
-                    <P><strong>Preencha os dados e confirme o <br> pagamento</strong></P>
-                    <p>Escreva e complete seus dados para <br> efeitos de dados de reserva</p>
-                </div>
-            </div>
-            <div id="iconeEmoji_caixaReserva">
-                <div class="icones_caixaReserva">
-                    😍
-                </div>
-                <div>
-                    <P><strong>Basta entrar e aproveitar!</strong></P>
-                    <p>Você pode entrar direto a aproveitar <br> suas férias sem obstáculos</p>
-                </div>
-            </div>
-        </div>
 
-        <div id="imagem_caixaReserva">
-            <div id="subdiv">
-                <!-- imagem aqui -->
-            </div>
-        </div>
+        </section>
+        <section id="secao-logos">
 
-    </section>
-    <!-- FIM DIV CAIXA RESERVA-->
-
-    <section class="caixa-mapa">
-
-        <div id="titulo-caixa-mapa">
-            <h4><span>BUSCAR POR ATRAÇÕES TURÍSTICAS</span></h4>
-            <h1>Procure por atrações turísticas perto de você</h1>
-            <p>
-                Este recurso permite que você pesquise atrações turísticas ou locais atualmente populares <br>
-                em sua região, para que você esteja sempre atualizado e não se confunda novamente.
-            </p>
-        </div>
-        <div id="imagem_caixaMapa">
-            <!-- imagem aqui -->
-        </div>
-
-    </section>
-    <!--FIM DIV CAIXA MAPA-->
-
-    <section id="icones_caixaMapa">
-
-        <div id="iconeLocalizacao_caixaMapa">
-            <div class="icone">
-                <i class="fi fi-bs-map-marker"></i>
-                <!-- icone aqui -->
-            </div>
             <div>
-                <p><strong>Popular perto de você</strong></p>
-                <p>
-                    Um ponto turístico popular e <br>
-                    definitivamente conhecido por <br>
-                    todos perto de você!
-                </p>
+                <img src="img/latam.png" alt="logo latam">
             </div>
-        </div>
+            <img src="img/expedia.png" alt="logo expedia">
+            <img src="img/qantas.png" alt="logo qantas">
+            <img src="img/alitalia.png" alt="logo alitalia">
 
-        <div id="iconeCoracao_caixaMapa">
-            <div class="icone">
-                <i class="fi fi-bs-comment-heart"></i>
-                <!-- icone aqui -->
-            </div>
-            <div>
-                <p><strong>Favoritos perto de você</strong></p>
-                <p>
-                    Lugar favorito e apreciado <br>
-                    por todos na sua<br>
-                    região
-                </p>
-            </div>
-        </div>
-
-        <div id="iconePessoas_caixaMapa">
-            <div class="icone">
-                <i class="fi fi-bs-users"></i>
-                <!-- icone aqui -->
-            </div>
-            <div>
-                <p><strong>Há muitas pessoas perto de você</strong></p>
-                <p>
-                    O local mais visitado por <br>
-                    moradores e turistas do <br>
-                    mundo todo
-                </p>
-            </div>
-        </div>
-
-    </section>
-    <!-- FIM DIV ICONES CAIXA MAPA-->
-
-    
-    <section class="caixa-galeria"> <!-- a class 'caixa-galeria' está no arquivo components.css-->
-
-        <div class="titulo-destinos"> <!-- a class 'titulo-destinos' também está no arquivo components.css-->
-            <h4><span>CONHECER O DESTINO</span></h4>
-            <h1>Galeria de turismo e blog de viagens</h1>
-        </div>
-
-        <div id="imagens-caixa-galeria">
-
-            <div id="foto-monte-bromo">
-                <div id="imagem-monte-bromo">
-                    <!-- imagem aqui -->
-                </div>
-                <div id="texto-monte-bromo">
-                    <p> 26 | Dezembro de 2021</p>
-                    <p><strong>Dicas para escalar o Monte <br> Bromo sem se cansar</strong></p>
-                    <p>então você conhece o Monte Bromo? Sim, uma montanha né!</p>
-                    <p><span><strong>Leia mais...</strong></span></p>
-                </div>
-            </div>
-
-            <div id="video-caixa-galeria">
-                <!-- imagem aqui -->
-            </div>
-
-        </div>
-
-        <div id="imagem-bottom-caixa-galeria">
-            <div id="texto-final-caixa-galeria">
-                <p><strong>Dicas para o consumo de água nos locais mais remotos</strong></p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint aspernatur nulla inventore <br> tempore delectus odit doloremque id temporibus</p>
-            </div>
-        </div>
-
-    </section>
-    <!-- FIM DIV CAIXA GALERIA-->
-
-    <section  class="caixa-depoimentos">
-
-        <div id="titulo-caixa-depoimentos">
-            <h4><span>DEPOIMENTOS DE TESTEMUNHAS</span></h4>
-            <h1>O que dizem sobre nós?</h1>
-            <p>
-                Ficou curioso para saber as avaliações dos usuários que utilizam o aplicativo e site Destinize para <br>
-                decidir para onde ir nas próximas férias? Venha conferir abaixo
-            </p>
-        </div>
-
-        <article id="feedback-caixa-depoimentos">
-
-            <div class="caixa-depoimento">
-                <div id="imagem_01" class="imagem-depoimento"></div>
-                <p>Destinize me ajudou <br> em busca de novos pontos turísticos <br> na Indonésia facilmente</p>
-                <div class="estrela">
-                    <i class="fi fi-ss-star"></i>
-                    <i class="fi fi-ss-star"></i>
-                    <i class="fi fi-ss-star"></i>
-                    <i class="fi fi-ss-star"></i>
-                    <i class="fi fi-ss-star" style="color:  rgba(196, 194, 194, 0.61);"></i>
-                </div>
-                <p><strong><span>Sandro Sardinha</span></strong></p>
-            </div>
-
-            <div class="caixa-depoimento">
-                <div id="imagem_02"  class="imagem-depoimento"></div>
-                <p>Destinize me ajudou a encontrar <br> uma alma gêmea, inesperadamente <br> que minha alma gêmea é...</p>
-                <div class="estrela">
-                    <i class="fi fi-ss-star"></i>
-                    <i class="fi fi-ss-star"></i>
-                    <i class="fi fi-ss-star"></i>
-                    <i class="fi fi-ss-star"></i>
-                    <i class="fi fi-ss-star" style="color:  rgba(196, 194, 194, 0.61);"></i>
-                </div>
-                <p><strong><span>Roberto Rubéns</span></strong></p>
-
-            </div>
-
-            <div class="caixa-depoimento">
-                <div id="imagem_03"  class="imagem-depoimento"></div>
-                <p>A Fenda do Biquini está se tornando muito <br> lotada de visitantes depois que <br> eu inseri na Destinize</p>
-                <div class="estrela">
-                    <i class="fi fi-ss-star"></i>
-                    <i class="fi fi-ss-star"></i>
-                    <i class="fi fi-ss-star"></i>
-                    <i class="fi fi-ss-star"></i>
-                    <i class="fi fi-ss-star" style="color: rgba(196, 194, 194, 0.61);"></i>
-                </div>
-                <p><strong><span>Petrik Sesat</span></strong></p>
-            </div>
-
-        </article>
-
-    </section>
-    <!-- FIM DIV CAIXA DEPOIMENTOS-->
-
-    <footer>
-        
-        <div id="ultima-caixa">
-            <div id="conteudo-ultima-caixa">
-                <img src="img/logomarca2.png" alt="">
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, <br> delectus odit, reprehenderit nisi sapiente tempore, repellendus asperiores <br> culpa commodi recusandae modi alias explicabo maxime <br> doloribus repellat molestiae voluptas eius dolores?
-                </p>
-            </div>
-        </div>
-
-        <p class="direitos-reservados">© 2021 - 2024 todos os direitos reservados</p>
-
-    </footer>
-    <!-- fim da tag Footer -->
-
+        </section>
+        <section id="secao-imagensLocais">
+            <h3>
+                Destinos favoritos
+            </h3>
+            <h1>
+                
+            </h1>
+        </section>
+    </main>
 </body>
 </html>
