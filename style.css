@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@media screen and (min-width: 370px) and (max-width: 650px) {
+   header{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border-bottom: 1px solid red;
+        height: 100px;
+    }
+
+    header img{
+        scale: 0.8;
+    }
+
+    #icone-perfil{
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        border: 1px solid red;
+    } 
+
+    #secao-imagemViajante{
+        width: 100%;
+        height: 100vh;
+        border: 1px solid red;
+    }
+
+    #imagem-viajante{
+        border: 1px solid red;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #imagem-viajante img{
+        margin: 30px 0 0 0;
+        scale: 0.5;
+    }
+
+    #texto-secao-imagemViajante{
+        width: 100%;
+        height: 40%;
+        border: 1px solid red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #texto-secao-imagemViajante p {
+        border: 1px solid red;
+        width: 80%;
+    }
+
+    #botao-iconeSeta{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border: 1px solid red;
+    }
+
+    #botao-iconeSeta div{
+        display: flex;
+        align-items: center;
+    }
+
+    #botao-iconeSeta button{
+        padding: 10px;
+    }
+
+    #seta{
+        width: 40px;
+        height: 40px;
+        border: 1px solid red;
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 10px 0 0 ;
+    }
+
+    /* ---------- */
+
+    #secao-logos{
+        width: 100%;
+        height: 60vh;
+        border: 1px solid red;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    #secao-logos div{
+        width: 200px;
+        height: 100px;
+        /* border: 1px solid red; */
+
+    }
+
+    #secao-logos img{
+        scale: 0.7;
+    }
+
+    /* ----------- */
+
+    #secao-imagensLocais{
+        width: 100%;
+        height: 100vh;
+        border: 1px solid red;
+    }
+
+
+
+}
