@@ -1,8 +1,8 @@
-## Projeto Destinize
+# Projeto Destinize
 
 <img src="print-destinize.jpg" alt="Imagem inicial do projeto">
 
-# Tecnologias usadas
+## Tecnologias usadas
 
 <ul>
     <li>HTML</li>
