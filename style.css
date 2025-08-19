@@ -138,7 +138,7 @@
     }
 
     .nome-local{
-        width: 120px;
+        width: 140px;
         height: 70px;
         background-color: rgba(207, 203, 203, 0.932);
         border-radius: 0 10px 0 0;
@@ -162,14 +162,53 @@
         background-size: cover;
     }
 
+    .nome-local h4{
+        margin: 6px 0 0 10px;
+        font-weight: bold;
+    }
+
+    .nome-local p{
+        margin: 5px 0 0 10px;
+    }
+
     /* --------- */
 
     #secao-reservas{
         width: 100%;
-        height: 110vh;
+        height: 120vh;
         border: 1px solid red;
     }
 
-    
+    .icone-frase{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border: 1px solid red;
+        height: 140px;
+    }
+
+    .icone{
+        border: 1px solid red;
+        width: 50px;
+        height: 50px;
+    }
+
+    .frase{
+        border: 1px solid red;
+        width: 70%;
+    }
+
+    .frase span{
+        border: 1px solid red;
+        font-weight: bold;
+    }
+
+    #imagem-secao-reserva{
+        border: 1px solid red;
+        width: 100%;
+        height: 400px;
+        background-image: url(img/reserva.png);
+        background-size: cover;
+    }
 
 }
