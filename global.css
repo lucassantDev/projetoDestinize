@@ -1,8 +1,8 @@
-@import url ('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
 :root{
- --Texto escuro: #14183E;
- --Azul: #4372EB;
- --Cinza claro: #9A9EA6;
- --fontePrincial: Plus Jakarta Sans;
+ --textoEscuro: #14183E;
+ --azul: #4372EB;
+ --cinzaClaro: #9A9EA6;
+ --fontePrincipal: 'Plus Jakarta Sans';
 }

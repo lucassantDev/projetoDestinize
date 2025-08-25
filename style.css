@@ -1,15 +1,25 @@
+@import url(global.css);
+
 *{
     margin: 0;
     padding: 0;
 }
 
+body{
+    font-family: var(--fontePrincipal);
+}
+
+h3{
+    color: var(--azul);
+}
 
 @media screen and (max-width: 650px) {
+
    header{
         display: flex;
         align-items: center;
         justify-content: space-around;
-        border-bottom: 1px solid red;
+        border-bottom:  1px solid var(--cinzaClaro);
         height: 100px;
     }
 
@@ -21,17 +31,22 @@
         width: 50px;
         height: 50px;
         border-radius: 25px;
-        border: 1px solid red;
+        border: 1px solid var(--textoEscuro);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--azul);
+        font-size: 25px;
     } 
+
+    /* -------- */
 
     #secao-imagemViajante{
         width: 100%;
         height: 100vh;
-        border: 1px solid red;
     }
 
     #imagem-viajante{
-        border: 1px solid red;
         width: 100%;
         height: 50%;
         display: flex;
@@ -47,7 +62,6 @@
     #texto-secao-imagemViajante{
         width: 100%;
         height: 40%;
-        border: 1px solid red;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -55,8 +69,19 @@
     }
 
     #texto-secao-imagemViajante p {
-        border: 1px solid red;
+        color: var(--cinzaClaro);
         width: 80%;
+    }
+
+    #texto-secao-imagemViajante h1 {
+        color: var(--textoEscuro);
+        font-weight: bold;
+        font-size: 2rem;
+        width: 80%;
+    }
+
+    #texto-secao-imagemViajante h1 span {
+        color: var(--azul);
     }
 
     #botao-iconeSeta{
@@ -65,7 +90,6 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        border: 1px solid red;
     }
 
     #botao-iconeSeta div{
@@ -74,18 +98,37 @@
     }
 
     #botao-iconeSeta button{
-        padding: 10px;
+        padding: 20px;
+        background-color: var(--azul);
+        border: none;
+        color: #fff;
+        font-weight: bold;
+        border-radius: 10px;
     }
 
     #seta{
         width: 40px;
         height: 40px;
-        border: 1px solid red;
+        border: 1px solid var(--azul);
         border-radius: 25px;
         display: flex;
         align-items: center;
         justify-content: center;
         margin: 0 10px 0 0 ;
+        color: var(--azul);
+        font-size: 15px;
+        transition: .3s;
+    }
+
+    #seta:hover{
+        transition: .3s;
+        color: #fff;
+        background-color: var(--azul);
+    }
+
+    #botao-iconeSeta p{
+        color: var(--cinzaClaro);
+        font-weight: bold;
     }
 
     /* ---------- */
@@ -93,7 +136,6 @@
     #secao-logos{
         width: 100%;
         height: 60vh;
-        border: 1px solid red;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -104,7 +146,6 @@
         width: 200px;
         height: 100px;
         /* border: 1px solid red; */
-
     }
 
     #secao-logos img{
@@ -135,6 +176,7 @@
         border: 1px solid red;
         display: flex;
         align-items: end;
+        border-radius: 15px;
     }
 
     .nome-local{
@@ -142,7 +184,7 @@
         height: 70px;
         background-color: rgba(207, 203, 203, 0.932);
         border-radius: 0 10px 0 0;
-       
+        border-radius: 0 0 0 15px;
     }
 
     #local-01{
