@@ -1,0 +1,25 @@
+header{
+    display: flex;
+     align-items: center;
+    justify-content: space-around;
+    border-bottom:  1px solid var(--cinzaClaro);
+    height: 120px;
+
+    img{
+        scale: 1.2;
+    }
+
+    #icone-perfil{
+        width: 65px;
+        height: 65px;
+        border-radius: 100%;
+        border: 2px solid var(--textoEscuro);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--azul);
+        font-size: 25px;
+    } 
+
+
+}

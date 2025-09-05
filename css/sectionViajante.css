@@ -1,0 +1,43 @@
+#secao-imagemViajante{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+
+    #imagem-viajante{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    img{
+        scale: 0.9;
+    }
+
+    #texto-secao-imagemViajante{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #texto-secao-imagemViajante p {
+        color: var(--cinzaClaro);
+        font-size: 1.2rem;
+        width: 90%;
+    }
+
+    #texto-secao-imagemViajante h1 {
+        color: var(--textoEscuro);
+        font-size: 3.5rem;
+        width: 90%;
+    }
+
+    span{
+        color: var(--azul);
+    }
+}
