@@ -3,22 +3,22 @@ header{
      align-items: center;
     justify-content: space-around;
     border-bottom:  1px solid var(--cinzaClaro);
-    height: 120px;
+    height: 140px;
 
     img{
-        scale: 1.2;
+        scale: 0.9;
     }
 
     #icone-perfil{
-        width: 65px;
-        height: 65px;
+        width: 55px;
+        height: 55px;
         border-radius: 100%;
         border: 2px solid var(--textoEscuro);
         display: flex;
         align-items: center;
         justify-content: center;
         color: var(--azul);
-        font-size: 25px;
+        font-size: 20px;
     } 
 
 
