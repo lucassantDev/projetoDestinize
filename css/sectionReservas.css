@@ -1,0 +1,51 @@
+#secao-reservas{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid red;
+    
+}
+
+.espaco-icone{
+    display: flex;
+    border: 2px solid yellow;
+    width: 100%;
+    height: 100%;
+}
+
+.icone-frase{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid red;
+    height: 140px;
+    width: 50%;
+}
+
+.icone{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #d1b548;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.frase{
+    color: var(--textoEscuro);
+    width: 70%;
+}
+
+.frase span{
+    color: var(--textoEscuro);
+    font-weight: bold;
+}
+
+#imagem-secao-reserva{
+    border: 1px solid red;
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/reserva.png);
+    background-size: cover;
+} 

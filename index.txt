@@ -1,0 +1,77 @@
+ <section id="secao-reservas">
+
+             <h3>
+                Reservas
+            </h3>
+           <div>
+            <h1> Não quer fazer fila? Basta fazer uma reserva!</h1>
+           </div>
+
+           <div class="espaco-icone">
+
+               <div class="icone-frase">
+                    <div class="icone">
+                        <!-- icone 01 -->
+                         🔍
+                    </div>
+                    <div class="frase">
+                        <span>Encontre o lugar que você <br> deseja!</span>
+                        <p>
+                            Encontre o próximo destino que <br> você encontrará com a Destinize
+                        </p>
+                    </div>
+               </div>
+               <div class="icone-frase">
+                     <div class="icone">
+                        <!-- icone 01 -->
+                         ✏️
+                    </div>
+                    <div class="frase">
+                        <span>Preencha os dados e confirme <br> o pagamento.</span>
+                        <p>
+                            Escreva e complete seus dados para<br> efeitos de dados de reserva.
+                        </p>
+                    </div>
+               </div>
+               <div class="icone-frase">
+                    <div class="icone">
+                        <!-- icone 01 -->
+                         😍
+                    </div>
+                    <div class="frase">
+                        <span>Basta entrar e aproveitar</span>
+                        <p>
+                            Você pode entrar direto e aproveitar <br> suas férias sem obstáculos!
+                        </p>
+                    </div>
+               </div>
+
+                <div id="imagem-secao-reserva">
+                    <!-- div da imagem -->
+                </div>
+
+           </div>
+
+           
+
+        </section>
+
+
+
+
+<section id="secao-atracao-turistica">
+            <div id="texto-secao-atracao-turistica">
+                <h3>
+                    BUSCA POR ATRAÇÕES TURÍSTICAS
+                </h3>
+                <h1>
+                    Procure por atrações turísticas perto de você
+                </h1>
+            </div>
+
+            <p>
+                Este recurso permite que você pesquise atrações turísticas ou locais atualmente populares em sua região, para que você esteja sempre atualizado e não se confunda novamente
+            </p>
+
+            <!-- <img src="img/mapa.png" id="imagem-mapa" alt="imagem do mapa"> -->
+        </section>
