@@ -1,0 +1,63 @@
+.atracoes-turisticas{
+    height: 170vh;
+    /* border: 1px solid red; */
+
+    & > #div-titulos-AtracoesTuristicas{
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        margin: 0 0 45px 0;
+
+
+        p{
+            text-align: center;
+        }
+    }
+
+
+}
+
+#imagem-mapa{
+    /* border: 1px solid red; */
+    width: 80%;
+    height: 450px;
+    transform: translatex(12%);
+    background-image: url(../img/mapa.png);
+    background-size: cover;
+    border-radius: 15px;
+}
+
+#icones-AtracoesTuristicas{
+    margin-top: 30px;
+    /* border: 1px solid red; */
+    height:  200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+    & .texto-icone{
+        display: flex;
+        justify-content: space-evenly;
+        width: 350px;
+        height: 150px;
+        /* border: 1px solid red; */
+    }
+
+    & .texto-icone h4{
+        margin-bottom: 5px;
+    }
+
+    & .icone-AtracoesTuristicas{
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color:  #00000009;
+        font-size: 1.3rem;
+    }
+}

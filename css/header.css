@@ -13,7 +13,7 @@ header{
         width: 55px;
         height: 55px;
         border-radius: 100%;
-        border: 2px solid var(--textoEscuro);
+        border: 1px solid var(--azul);
         display: flex;
         align-items: center;
         justify-content: center;

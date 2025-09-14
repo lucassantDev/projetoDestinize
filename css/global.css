@@ -18,8 +18,11 @@ body{
 
 h3{
     color: var(--azul);
+    font-size: 1rem;
+
 }
 
 h1{
     color: #14183E;
+    font-size: 4rem;
 }
