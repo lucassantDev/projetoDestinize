@@ -1,36 +1,37 @@
 <template>
-    <section class="w-full h-fit py-6
-    lg:h-screen flex flex-col items-center justify-center
+    <section class="w-full h-fit py-6 flex flex-col items-center justify-evenly
+    lg:h-screen
     ">
             
            <div class="w-full">
             <h3 class="font-semibold text-blue-500 text-center
-            lg:text-left lg:ml-16 lg:text-4xl 
+            lg:text-left lg:ml-16 lg:text-2xl 
             ">
-                Destinos favoritos
+                DESTINOS FAVORITOS
             </h3>
             <h1 class="font-bold text-blue-950 text-3xl text-center mt-2
             lg:text-left lg:ml-16 lg:text-5xl lg:mt-6 
-            "><span>✈️</span> Venha escolher o destino da sua próxima viagem</h1>
+            "><span>✈️</span> Venha escolher o destino da sua próxima <br>viagem!</h1>
            </div>
 
            <div class="
             h-fit flex flex-col items-center gap-4 py-6
-            lg:flex-row lg:w-full lg:justify-evenly lg:h-1/2
+            lg:flex-row lg:w-full lg:justify-evenly lg:h-2/3
            ">
 
                 <div 
                 v-for="lugar in lugares"
                 :key="lugar.id"
-                class="rounded-xl w-68 overflow-hidden shadow-lg
-                lg:scale-125
+                class="rounded-md w-68 overflow-hidden shadow-lg
+                lg:scale-125 lg:h-3/4
                 "
                 >
 
                 <img
                 :src="lugar.img"
                 :alt="lugar.destino"
-                class="w-68 h-48 object-cover
+                class="w-full h-48 object-cover
+                lg:h-4/5 
                 "
                 />
                 <div class="p-3 bg-white/50">
@@ -39,8 +40,6 @@
                 </div>
 
                 </div>
-
-                
 
             </div>
         </section>
