@@ -46,7 +46,7 @@
                 </div>
             </div>
 
-            <!-- <div class="espaco-depoimentos">
+
 
                 <div class="depoimento">
                     <img src="img/avatar1.png" alt="primeiro cliente" style="scale: 0.8;">
@@ -101,8 +101,7 @@
                     </p>
                 </div>
 
-            </div> -->
-        </section>
+            </section>
 </template>
 
 <script setup>
