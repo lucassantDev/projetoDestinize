@@ -5,6 +5,7 @@ import LogoSection from './components/LogoSection.vue'
 import FavoritePlaces from './components/FavoritePlaces.vue'
 import Reservs from './components/Reservs.vue'
 import Attractions from './components/Attractions.vue'
+import AboutUs from "./components/AboutUs.vue"
 </script>
 
 <template>
@@ -14,4 +15,5 @@ import Attractions from './components/Attractions.vue'
     <FavoritePlaces/>
     <Reservs/>
     <Attractions/>
+    <AboutUs/>
 </template>
