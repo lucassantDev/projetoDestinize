@@ -1,10 +1,10 @@
 <template>
     <footer class="w-full flex flex-col items-center justify-evenly 
     h-screen py-12 lg:h-screen lg:items-start">
-        <div class="flex sm:flex-col sm:items-center lg:items-start">
+        <div class="flex flex-col items-center lg:items-start">
             <img
             src="../img/logomarca2.png"
-            class="w-24 mb-2 mr-24 lg:ml-6"
+            class="w-24 mb-2 mr-36 lg:ml-6"
             />
             <p class="text-gray-400 w-1/2  lg:ml-6">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
