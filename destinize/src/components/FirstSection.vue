@@ -12,7 +12,7 @@
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda architecto vitae porro dignissimos in inventore, 
                 atque ut et enim nulla qui iste dolorem, quidem eveniet quasi suscipit beatae, quod id!
             </p>
-            <div class='flex items-center  md:w-full'>
+            <div class='flex flex-col gap-2 items-center md:w-full md:flex-row md:gap-4'>
                 <button class=
                 "bg-blue-500 p-4 w-44 rounded-md font-semibold text-gray-50 cursor-pointer transition duration-200 hover:bg-blue-600
                 hover:shadow-xl
@@ -21,15 +21,17 @@
                 >
                     Cadastre-se
                 </button>
-                <button class=
-                '
-                border border-blue-600 ml-10 shadow-xl w-14 h-14 group rounded-full cursor-pointer flex items-center justify-center
-                md:
-                '>
-                    <Play :size="20"
-                    class="text-gray-400 transition duration-200 group-hover:text-blue-500"
-                    />
-                </button>
+                <div class="flex w-full items-center justify-evenly gap-2 md:w-fit ">
+                    <button class=
+                    '
+                    border border-blue-600 shadow-xl w-14 h-14 group rounded-full cursor-pointer flex items-center justify-center
+                    '>
+                        <Play :size="20"
+                        class="text-gray-400 transition duration-200 group-hover:text-blue-500"
+                        />
+                    </button>
+                    <p class="font-semibold text-blue-400">Veja como funciona</p>
+                </div>
             </div>
         </div>
 
