@@ -21,7 +21,9 @@
                 lg:justify-start lg:mt-4"
             >
 
-                <div class="w-12 h-12 bg-yellow-400 rounded-xl shadow-md lg:w-14 lg:h-14"></div>
+                <div class="w-12 h-12 bg-yellow-400 rounded-xl shadow-md flex items-center justify-center lg:w-14 lg:h-14">
+                    <component :is="card.icone" class="text-gray-50"/>
+                </div>
                 <div class="flex flex-col w-3/4 lg:ml-12 lg:w-92">
                     <h2 class="font-semibold text-blue-950">{{ card.titulo }}</h2>
                     <p class="text-gray-600">{{ card.descricao }}</p>

@@ -1,6 +1,6 @@
 <template>
     <section class="
-    border w-full h-fit py-6  flex flex-col items-center justify-center
+    w-full h-fit py-6  flex flex-col items-center justify-center
     ">
 
     <div class="w-full h-fit flex flex-col items-center justify-center ">
@@ -30,9 +30,12 @@
         class="w-full py-4 flex justify-evenly mt-2
         lg:justify-center lg:mt-4 ">
 
-        <div class="w-14 h-14 bg-gray-200 rounded-full shadow-sm flex items-center"></div>
+        <div class="w-14 h-14 bg-gray-200 rounded-full shadow-sm flex  justify-center items-center">
+            
+            <component :is="description.icone"/>
+        </div>
 
-        <div class="border w-4/5 ml-2">
+        <div class=" w-4/5 ml-2">
             <h4 class="font-bold text-md text-blue-950">{{ description.titulo }}</h4>
             <p class="text-gray-600">{{ description.descricao }}</p>
         </div>
@@ -44,20 +47,24 @@
 
 <script setup>
 import { ref } from 'vue';
+import { Heart, Users, MapPinPlus  } from '@lucide/vue';
 
 const descriptions = ref([
     {
         id: 1,
+        icone: MapPinPlus,
         titulo: 'Popular perto de você',
         descricao: 'Um ponto turístico popular e definitivamente conhecido por todos perto de você.'
     },
     {
         id: 2,
+        icone: Heart,
         titulo: 'Favoritos perto de você!',
         descricao: 'Lugar favorito e apreciado por todos na sua região.'
     },
     {
         id: 3,
+        icone: Users,
         titulo: 'Há muitas pessoas perto de você',
         descricao: 'O local mais visitado por moradores e turistas!'
     }

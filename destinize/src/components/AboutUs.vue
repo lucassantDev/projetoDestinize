@@ -1,5 +1,5 @@
 <template>
-     <section class="border w-full h-fit py-6  flex flex-col items-center justify-evenly lg:h-screen">
+     <section class="w-full h-fit py-6  flex flex-col items-center justify-evenly lg:h-screen">
             <div class="w-full h-fit flex flex-col items-center justify-center">
                 <h3 class="font-semibold text-blue-500 text-center
                     lg:text-left lg:text-2xl">DEPOIMENTO DE TESTEMUNHAS
@@ -45,61 +45,6 @@
                     </div>
                 </div>
             </div>
-
-
-
-                <div class="depoimento">
-                    <img src="img/avatar1.png" alt="primeiro cliente" style="scale: 0.8;">
-                    <p class="feedback-cliente">
-                        Destinize me ajudou em busca de novos pontos turísticos na br Indonésia facilmente!
-                    </p>
-                    <p class="avaliacao-cliente">
-                        <i class="fa-solid fa-star" alt="estrelas de avaliação"></i>
-                        <i class="fa-solid fa-star" alt="estrelas de avaliação"></i>
-                        <i class="fa-solid fa-star" alt="estrelas de avaliação"></i>
-                        <i class="fa-solid fa-star" alt="estrelas de avaliação"></i>
-                        <span><i class="fa-solid fa-star" alt="estrelas de avaliação"></i></span>
-
-                    </p>
-                    <p class="nome-cliente">
-                        Sandro Sardinha
-                    </p>
-                </div>
-
-                <div class="depoimento">
-                    <img src="img/avatar2.png" alt="segundo cliente" style="scale: 0.8;">
-                    <p class="feedback-cliente">
-                        Destinize me ajudou e encontrar uma alma gêmea! Juntos, viajamos para diversos lugares do mundo.
-                    </p>
-                    <p class="avaliacao-cliente">
-                        <i class="fa-solid fa-star" alt="estrelas de avaliação"></i>
-                        <i class="fa-solid fa-star" alt="estrelas de avaliação"></i>
-                        <i class="fa-solid fa-star" alt="estrelas de avaliação"></i>
-                        <i class="fa-solid fa-star" alt="estrelas de avaliação"></i>
-                        <span><i class="fa-solid fa-star" alt="estrelas de avaliação"></i></span>
-
-                    </p>
-                    <p class="nome-cliente">
-                        Roberto Rubéns
-                    </p>
-                </div>
-
-                <div class="depoimento">
-                    <img src="img/avatar3.png" alt="terceiro cliente" style="scale: 0.8;">
-                    <p class="feedback-cliente">
-                       Minha primeira viagem eu fiz atraves da Destinize. Todo o processo foi muito tranquilo!
-                    </p>
-                    <p class="avaliacao-cliente">
-                       <i class="fa-solid fa-star" alt="estrelas de avaliação"></i>
-                        <i class="fa-solid fa-star" alt="estrelas de avaliação"></i>
-                        <i class="fa-solid fa-star" alt="estrelas de avaliação"></i>
-                        <i class="fa-solid fa-star" alt="estrelas de avaliação"></i>
-                        <span><i class="fa-solid fa-star" alt="estrelas de avaliação"></i></span>
-                    </p>
-                    <p class="nome-cliente">
-                        Patrick Sesat
-                    </p>
-                </div>
 
             </section>
 </template>
